@@ -219,8 +219,8 @@
         <td><a href="../../reports/bug-reports/br-32.md#br-32">BR-32</a></td>
     </tr>
     <tr>
-        <td>TC-OG-45</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsCount tipo booleano al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-11</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsCount field as a boolean to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -228,18 +228,18 @@
     &quot;productsWeight&quot;: 1.5
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for integer: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-33?atlOrigin=eyJpIjoiZTdkOGNmZTFlMzQ5NGY2NGI4MDE0M2E0MmM5MjI5NWMiLCJwIjoiaiJ9" target="_blank">BR-33</a></td>
+        <td><a href="../../reports/bug-reports/br-33.md#br-33">BR-33</a></td>
     </tr>
     <tr>
-        <td>TC-OG-46</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsCount = null al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-12</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsCount field as a null to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -247,18 +247,18 @@
     &quot;productsWeight&quot;: 1.5
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for integer: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-34?atlOrigin=eyJpIjoiZDgyODlkYWE0MWFkNGQyZGFmMzczZDU1OTEwMzMzOTgiLCJwIjoiaiJ9" target="_blank">BR-34</a></td>
+        <td><a href="../../reports/bug-reports/br-34.md#br-34">BR-34</a></td>
     </tr>
     <tr>
-        <td>TC-OG-47</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsCount tipo objeto al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-13</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsCount field as an object to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -266,18 +266,18 @@
     &quot;productsWeight&quot;: 1.5
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for integer: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-35?atlOrigin=eyJpIjoiYjY4YzVkOWIwZWE0NDA2ZWFlZmQwOTQ1MDYyNzcwN2UiLCJwIjoiaiJ9" target="_blank">BR-35</a></td>
+        <td><a href="../../reports/bug-reports/br-35.md#br-35">BR-35</a></td>
     </tr>
     <tr>
-        <td>TC-OG-48</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsCount tipo array al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-14</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsCount field as an array to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -285,18 +285,17 @@
     &quot;productsWeight&quot;: 1.5
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for integer: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-36?atlOrigin=eyJpIjoiZDUxMThkOWQ4YTE1NGQ2ZjliZWUwMGRmOGFjZjljODciLCJwIjoiaiJ9" target="_blank">BR-36</a></td>
+        <td><a href="../../reports/bug-reports/br-36.md#br-36">BR-36</a></td>
     </tr>
     <tr>
-        <td>TC-OG-49</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsWeight tipo string al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-15</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsWeight field as a string to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -304,18 +303,18 @@
     &quot;productsWeight&quot;: &quot;string&quot;
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for number: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-37?atlOrigin=eyJpIjoiZTkxNTNlYzA2MzAyNDY4MTg1YTM0YjBhZDkxMmY4ZGIiLCJwIjoiaiJ9" target="_blank">BR-37</a></td>
+        <td><a href="../../reports/bug-reports/br-37.md#br-37">BR-37</a></td>
     </tr>
     <tr>
-        <td>TC-OG-50</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsWeight tipo booleano al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-16</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsWeight field as a boolean to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -323,18 +322,18 @@
     &quot;productsWeight&quot;: true
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for number: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-38?atlOrigin=eyJpIjoiZWUyY2JhZWRiM2FkNGM5NzlkOWJjMDkwNDhmNTI3NzAiLCJwIjoiaiJ9" target="_blank">BR-38</a></td>
+        <td><a href="../../reports/bug-reports/br-38.md#br-38">BR-38</a></td>
     </tr>
     <tr>
-        <td>TC-OG-51</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsWeight = null al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-17</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsWeight field as a null to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -342,18 +341,18 @@
     &quot;productsWeight&quot;: null
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for number: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-39?atlOrigin=eyJpIjoiYjkwM2I2MDJiYzE3NDBlZDgzYzJiOTRkMGY4MmQwYjAiLCJwIjoiaiJ9" target="_blank">BR-39</a></td>
+        <td><a href="../../reports/bug-reports/br-39.md#br-39">BR-39</a></td>
     </tr>
     <tr>
-        <td>TC-OG-52</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsWeight tipo objeto al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-19</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsWeight field as an object to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -361,18 +360,18 @@
     &quot;productsWeight&quot;: {}
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for number: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-40?atlOrigin=eyJpIjoiMTAxM2Q4YzdhNDU0NDZhODg2ODlkYjQ4YTI4Nzk4ZjgiLCJwIjoiaiJ9" target="_blank">BR-40</a></td>
+        <td><a href="../../reports/bug-reports/br-40.md#br-40">BR-40</a></td>
     </tr>
     <tr>
-        <td>TC-OG-53</td>
-        <td>A 400 Bad Request al enviar la solicitud con el valor del campo productsWeight tipo array al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-19</td>
+        <td>A 400 Bad Request status code is returned when sending a request with the productsWeight field as an array to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;deliveryTime&quot;: 15,
@@ -380,32 +379,32 @@
     &quot;productsWeight&quot;: []
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "invalid input syntax for number: ..."</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-41?atlOrigin=eyJpIjoiNGQzNTIwOTQ2Njg5NDU1M2IwYTU3ODVhOWUxMTc2MjEiLCJwIjoiaiJ9" target="_blank">BR-41</a></td>
+        <td><a href="../../reports/bug-reports/br-41.md#br-41">BR-41</a></td>
     </tr>
     <tr>
-        <td>TC-OG-54</td>
-        <td>A 400 Bad Request al enviar la solicitud omitiendo el campo deliveryTime al endpoint "/order-and-go/v1/delivery".</td>
+        <td>TC-OG-20</td>
+        <td>A 400 Bad Request status code is returned when sending a request without the deliveryTime field to the "/order-and-go/v1/delivery" endpoint.</td>
         <td>1. The warehouse system must be active.</td>
         <td><pre><code>{
     &quot;productsCount&quot;: 4,
     &quot;productsWeight&quot;: 1.5 
 }</code></pre></td>
         <td>1. Select the POST method.<br>
-        2. Escribir la URL + /order-and-go/v1/delivery.<br>
-        3. Añadir in the request body los datos de la prueba.<br>
-        4. Enviar la solicitud.</td>
-        <td>- A el código de estado: 400 Bad Request.<br>
+        2. Enter the server URL + /order-and-go/v1/delivery.<br>
+        3. Add the test data to the request body.<br>
+        4. Send the request.</td>
+        <td>A 400 Bad Request status code is returned.<br>
         - "message": "deliveryTime is required".</td>
-        <td>- A el código de estado: 200 OK.</td>
+        <td>- A 200 OK status code is returned.</td>
         <td>🔴 FAILED</td>
-        <td><a href="https://arielpinom96.atlassian.net/browse/BR-42?atlOrigin=eyJpIjoiMGUyYzlmNmRlNmU1NDgzMjkxYzg4NWViYjYyZjdmMjYiLCJwIjoiaiJ9" target="_blank">BR-42</a></td>
+        <td><a href="../../reports/bug-reports/br-42.md#br-42">BR-42</a></td>
     </tr>
     <tr>
         <td>TC-OG-55</td>
