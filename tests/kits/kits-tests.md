@@ -64,6 +64,7 @@
         - The request status is 200 OK.</td>
         <td>- The existing products is added to the kit.<br>
         - The request status is 200 OK.</td>
+        <td>🟢 PASSED</td>
         <td></td>
     </tr>
     <tr>
@@ -1008,7 +1009,7 @@
         <td>- A 200 OK status code is returned in the response.<br>
         - The product is added to the kit.</td>
         <td>🔴 FAILED</td>
-        <td><a href="../../reports/bug-reports/br-24#br-24.md">BR-24</a></td>
+        <td><a href="../../reports/bug-reports/br-24.md#br-24">BR-24</a></td>
     </tr>
     <tr>
         <td>TC-KM-34</td>
