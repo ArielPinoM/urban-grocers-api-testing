@@ -1,9 +1,5 @@
 # Integration Validation and API Testing: Urban Grocers
 
-![Status](https://img.shields.io/badge/Status-Completed-teal)
-![Tool](https://img.shields.io/badge/Tool-Postman-orange)
-[![Reported Bugs](https://img.shields.io/badge/Reported%20Bugs-See%20%2Freports-red)](./reports)
-
 This repository contains the quality strategy, test scenario design, and full integration test execution for the backend API of the Urban Grocers platform. The project validates system behavior against the latest updates related to product kit management and automatic delivery service calculation.
 
 ---
@@ -23,14 +19,14 @@ A failure in the API for these modules could result in unprocessable orders, fin
 
 * **API Testing and Execution:** Postman Client (v12.8.4)
 * **Defect Management:** Jira Software
-* **Test Design Methodology:** Equivalence Partitioning (EP) and Boundary Value Analysis (BVA)
-* **Technical Specification:** apiDoc and Backend Requirements Engineering
+* **Test Design Methodology:** [Equivalence Partitioning (EP) and Boundary Value Analysis (BVA)](./docs/test-design/equivalence-boundary-analysis.md)
+* **Technical Specification:** [apiDoc](./docs/requirements/api-docs.md) and [Backend Requirements](./docs/requirements/backend-requirements.md) Engineering
 
 ---
 
 ## 📈 Test Strategy
 
-Se aplicó un enfoque de caja negra centrado en la validación de contratos de API e integración de componentes del lado del servidor. Las pruebas se ejecutaron directamente contra los endpoints desplegados en el entorno de pruebas (QA) provisto por el backend.
+A black-box testing approach was used, focused on validating API contracts and server-side component integration. Tests were executed directly against the endpoints deployed in the QA environment provided by the backend team.
 
 ### Areas Under Test:
 
@@ -41,6 +37,10 @@ Se aplicó un enfoque de caja negra centrado en la validación de contratos de A
 ---
 
 ## 📝 Designed Test Scenarios (Summary)
+ 
+Full, detailed test cases for each requirement are documented in the repository:
+- Kits tests: [tests/kits/kits-tests.md](tests/kits/kits-tests.md)
+- Delivery tests: [tests/delivery/delivery-tests.md](tests/delivery/delivery-tests.md)
 
 ### 1. Requirement: Kit Management
 
